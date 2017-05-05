@@ -1,0 +1,191 @@
+/******Style for background start********/
+.wrap {
+    width: 100%;
+}
+.FP_image {
+    background-image:url("images/Edited.jpg");
+    position: relative;
+    height: 150vh;
+    background-repeat: repeat;
+}
+.FP_image:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+}
+/**************style for my name***********************/
+.name {
+    color: #FFF;
+    position: relative;
+    padding-left:80px;
+    padding-top:80px; /*80px 80px*/;
+    font-family: century gothic;
+    font-size:200%;
+    opacity:none;
+
+}
+/**************style for navigation bar*************/
+.NavDec
+{
+    
+    margin-left: 20px;
+    color:white;
+    position: relative;
+ /*   background-color: grey;
+    border-radius:3px;*/
+    text-decoration: none;
+}
+.nav-bar
+{
+   /* margin-left:800px;*/ 
+    color: #FFF;
+    font-family: century gothic;
+   font-weight: bold;
+   float:right;
+   padding-top: 80px;
+   padding-left: 40%;
+   
+}
+.nav-bar a:hover
+{
+  color:blue/*#92DDE2*/;
+  text-decoration:none;
+  font-size: 20px;
+ 
+}
+/****************Style for heading************************/
+.h3cls
+{
+    margin-top:150px;
+    color: #FFF;
+    position: relative;
+    font-family: century gothic;
+    opacity:none;   
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+/*************Style for COntent****************************/
+.contentcls
+{
+ /*padding-right:150px;
+ padding-left:150px;*/
+ font-size: 90%;
+font-family: "century gothic";
+/*color:grey;*/
+}
+.skimgcls
+{
+ padding-right:150px;
+ padding-left:150px;
+}
+/***********Styel for Skills*******************************/
+#Skills
+{
+    padding-left:10%;
+    /*padding-right:5%;*/
+    line-height: 155%;
+}
+#Experince
+{
+    padding-left:10%;
+    padding-top: 10%;
+}
+#Education
+{
+    padding-left:10%;
+    padding-top: 10%;
+    line-height: 155%;
+}
+.divTextStyles
+{
+ color: #FFF;
+    position: relative;
+    /*80px 80px*/;
+    font-family: century gothic;
+    opacity:none;   
+    font-size: 16px;
+    margin-top:20px;
+    padding-left: 150px;
+}
+.divExperience
+{
+    font-size: 16px;
+    font-family: "century gothic";
+    color: #FFF;
+    position: relative;
+    font-family: century gothic;
+    opacity:none;   
+    font-size: 16px;  
+}
+.h3Exp
+{
+    margin-top:20px;
+    color: #FFF;
+    position: relative;
+    font-family: century gothic;
+    opacity:none;   
+    font-size: 25px;
+}
+.contact {
+    color: #FFF;
+    position: relative;
+    padding-left:80px /*80px 80px*/;
+    font-family: century gothic;
+    font-size:15px;
+    opacity:none;
+}
+.divParent
+{
+    width:65%; 
+    float:right;
+    display:none;
+   /* padding-left:150px;*/
+}
+.tab1 
+{
+    font-family: century gothic;
+    opacity:none;
+    color: #FFF;
+    position: relative;
+    font-size:120%;
+    padding-left:170px;
+
+}
+#divHome
+{
+    padding-left:15%;
+    padding-right:5%;
+  /*  padding-top: 5%;*/
+    line-height: 155%;
+}
+b
+{
+    color:#1AB4EC;
+}
+.contactbar
+{
+   /* background-color: white;*/
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    padding-left:80px /*80px 80px*/;
+    font-family: century gothic;
+    font-size:15px;
+    opacity:none;
+    list-style: none;
+   /* margin-left: 15px;*/
+   padding-top: 15px;
+
+}
+.email-details{
+    margin-right: 30px;
+ /*     background-color: grey;
+      background-size: cover;*/
+      float:right;
+}
+
